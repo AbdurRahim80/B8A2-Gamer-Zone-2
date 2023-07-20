@@ -51,6 +51,7 @@
 
 .menu li a {
     text-decoration: none;
+    color: #3C354F;
     font-size: 18px;
     font-weight: 500px;
     margin: 32px;
@@ -63,6 +64,8 @@
     height: 56px;
     border-radius: 8px;
     border: none;
+    background: rgba(11, 2, 35, 0.10);
+
 }
 
 .btn-primary a {
@@ -90,34 +93,498 @@
 
 /* End header section */
 
+/* start bannar section */
+.game-section {
+    background-image: url('Group 14.png');
+    background-repeat: no-repeat;
+}
+
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 120px;
+}
+
+.bannar-play {
+    margin: 0 auto;
+    text-align: left;
+    margin-left: 0;
+
+}
+
+.play {
+    font-size: 30px;
+    color: #0B0223;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.goat {
+    font-size: 60px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 1px;
+}
+
+.bannar-play p {
+    font-size: 17px;
+    font-weight: #534C64;
+    font-weight: 500;
+    width: 500px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.btn-sing {
+    font-size: 17px;
+    font-weight: 600;
+    color: #FFF;
+    ;
+    padding: 15px 30px;
+    border-radius: 48px;
+    background: #F948B2;
+    border: none;
+    text-transform: uppercase;
+}
+
+.btn-go {
+    font-size: 17px;
+    font-weight: 600;
+    color: #FFF;
+    padding: 15px 30px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.banner-profile-img {}
+
+.banner-profile-img img {
+    width: 500px;
+    height: 400px;
+
+}
 
 
+
+/* End bannar section */
+/* start main section Online game */
+.online-game {
+    margin: 10px 120px;
+}
+
+.online-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.online-title-span {
+    color: #F948B2;
+}
+
+.online-p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.online-pic p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #534C64;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.online-group-pic {
+    font-size: 24px;
+    color: #0B0223;
+    font-weight: 700;
+}
+
+.online-group-pic {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.online-group-pic img {
+    width: 230px;
+    height: 240px;
+    margin: 15px;
+}
+
+/* end main section Online game */
+
+/* play ins */
+.play-instarl-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 120px;
+}
+
+.play-ins .play-ins-title {
+    color: #F948B2;
+}
+
+.play-ins h1 {
+    font-size: 40px;
+    color: #0B0223;
+    font-weight: 600;
+}
+
+.play-ins p {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.play-ins {
+    text-align: right;
+}
+
+.play-ins-img .play-ins-img-2 {
+    width: 500px;
+    height: 500px;
+}
+
+.play-ins-img img {
+    width: 150px;
+    height: 180px;
+}
+
+.play-ins-img {
+    position: relative;
+}
+
+.play-ins-img-3 {
+    position: absolute;
+    top: 370px;
+    right: 420px;
+}
+
+/* --------------start button section--------------------------------------- */
+.button-contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+    margin: 30px 120px;
+    
+}
+.b {
+    width: 252px;
+    height: 50px;
+    text-align: left;
+    border-radius: 40px;
+    position: relative;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    transition: 1s;
+}
+.b img{
+    width: 40px;
+    height: 40px;
+}
+.b a{
+    font-size: 18px;
+    position: absolute;
+    margin-left: 10px;
+    top: 13px;
+    text-decoration: none;
+    color: #0B0223;
+    transition: .5s;
+}
+.b:hover{
+    border: 1px solid salmon;
+    
+}
+.b:hover a{
+    color: salmon;
+}
+
+
+/* --------------start footer section---------------------------------------- */
+
+footer{
+    background: #0B0223;
+    margin: 30px 120px;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-logo-img{
+    width: 86.041px;
+    height: 40px;
+}
+.footer-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.footer-menu ul li{
+    margin: 20px;
+    list-style: none;
+
+}
+
+.footer-menu ul li a{
+    text-decoration: none;
+    color: seashell;
+    font-size: 18px;
+    font-weight: 500;
+    font-size: 17px;
+    font-weight: lighter;
+    
+
+}
+.social-icon{
+    display:flex;
+    justify-content: center;
+    align-items: center
+
+}
+.social-icon ul{
+    display:flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+.social-icon ul li{
+    margin: 25px;
+    list-style: none;
+}
+.social-icon ul li a{
+    font-size: 35px;
+    color: seashell;
+}
+
+.setting{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-logo-img{
+    width: 86.041px;
+    height: 40px;
+}
+
+.footer-menu{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: 30px 200px;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: #F61C0D;
+}
+.social-icon{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: 30px 200px;
+}
+.ftr-buttom{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+/* --------------end footer section---------------------------------------- */
 
 
 /* responsive for mobile device */
 @media screen and (max-width:576px) {
-    .navbar{
+
+    .navbar,
+    .banner-section,
+    .play-instarl-section {
         flex-direction: column;
     }
-    .menu{
+
+    .menu {
         flex-direction: column;
         margin-top: 10px;
 
     }
-    .menu ul{
-        display:block;
+
+    .menu ul {
+        display: block;
         margin-top: -20px;
         padding: 0;
 
     }
-    .menu li{
+
+    .menu li {
         text-align: center;
         margin-top: 20px;
-        
+
     }
-    .btn-primary a{
+
+    .btn-primary a {
         margin: 5px;
     }
 
+    /* online game section */
+    .online-game {
+        margin: 5px 20px;
+    }
 
+    .online-title {
+        font-size: 27px;
+    }
+
+    .online-p {
+        font-size: 14px;
+    }
+
+    .online-pic p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+    .online-group-pic {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .banner-profile-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .game-section {}
+
+    .banner-section {
+        margin-right: 0px;
+    }
+
+    .game-section {
+        display: none;
+    }
+
+    /* play-instarl-section */
+    .play-instarl-section {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .play-ins-title {
+        margin: 0 1px;
+    }
+
+    .play-ins-img .play-ins-img-2 {
+        width: 300px;
+        height: 400px;
+
+    }
+
+    .play-ins-img-3 {
+        position: absolute;
+        top: 300px;
+        right: 200px;
+    }
+    /* button-section------------- */
+    .button-contain{
+        margin: 10px 50px;
+    }
+    button{
+        padding-left: 10px;
+        width: 85%;
+    }
+    button a{
+        margin-left: 30px;
+    }
+
+}
+
+/* footer section----------- */
+footer{
+    display: none;
+}
+
+
+
+/* online game section */
+/* ENd responsive for mobile device */
+
+
+.online-pic {
+    position: relative;
+}
+
+.online-pic::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    transform: scale(0);
+
+}
+
+.online-pic.overly:hover::before {
+    transform: scale(1);
+
+}
+
+
+
+.overly {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+
+
+
+.overly a {
+    color: #fff;
+}
+
+.online-pic {
+    margin-right: 20px;
 }
