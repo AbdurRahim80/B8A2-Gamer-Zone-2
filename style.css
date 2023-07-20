@@ -597,6 +597,24 @@ footer{
 /* online game section */
 /* ENd responsive for mobile device */
 
+/* start responsive for teblet device */
+@media screen and (min-width:576px) and (max-width:990px) {
+.play-ins-img-3 {
+    left: 200px;
+}
+img.play-ins-img-2 {
+    margin-left: 183px;
+}
+.play-ins-img-3 {
+    left: 120px;
+}
+    
+}
+
+/* ENd responsive for tablet device */
+
+
+
 
 .online-pic {
     position: relative;
