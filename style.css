@@ -541,6 +541,11 @@ footer{
     button a{
         margin-left: 30px;
     }
+    /* footer section */
+    .footer-containar{
+        width: 100%;
+        margin: 0 auto;
+    }
 
 }
 
